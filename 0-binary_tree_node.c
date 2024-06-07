@@ -1,4 +1,5 @@
 #include "binary_trees.h"
+#include "string.h"
 
 /**
  * binary_tree_node - Creates a new binary tree node
@@ -8,6 +9,7 @@
  * Return: a pointer to the new node, or NULL on failure
  */
 
+{
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
 	/* declaration of the new node with its data type */
@@ -29,4 +31,5 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 
 	/* return a pointer to the node */
 	return (newNode);
+}
 }
